@@ -1,0 +1,137 @@
+CRITICAL - 2020-11-16 00:08:58 --> Unable to connect to the database.
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\Database\BaseConnection.php(1548): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\Database\BaseConnection.php(1591): CodeIgniter\Database\BaseConnection->listTables()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\Database\MigrationRunner.php(945): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\Database\MigrationRunner.php(193): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 E:\KULIAH\SEMESTER 5\PBW\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(917): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\KULIAH\SEMESTER 5\PBW\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 E:\KULIAH\SEMESTER 5\PBW\framework\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2020-11-16 00:20:35 --> syntax error, unexpected '}', expecting end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Beranda')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Beranda')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-16 00:20:38 --> syntax error, unexpected '}', expecting end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Beranda')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Beranda')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-16 00:20:40 --> syntax error, unexpected '}', expecting end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Beranda')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Beranda')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-16 00:20:53 --> syntax error, unexpected '}', expecting end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Beranda')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Beranda')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-16 00:21:11 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_v.php')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('header_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(7): view('header_v')
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-16 00:41:38 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_v.php')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('footer_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(9): view('footer_v')
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-16 00:44:20 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_v.php')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('footer_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(9): view('footer_v')
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-16 00:50:19 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_v.php')
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('footer_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(9): view('footer_v')
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-16 01:37:58 --> Invalid argument supplied for foreach()
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\app\Views\program_studi_v.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\KULIAH\\SEMES...', 33, Array)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(246): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Program_Studi->index()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#9 {main}
+CRITICAL - 2020-11-16 01:38:04 --> Invalid argument supplied for foreach()
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\app\Views\program_studi_v.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\KULIAH\\SEMES...', 33, Array)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\system\View\View.php(246): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Program_Studi->index()
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#9 {main}
+CRITICAL - 2020-11-16 01:38:48 --> syntax error, unexpected end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Program_Studi->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}
+CRITICAL - 2020-11-16 01:38:51 --> syntax error, unexpected end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Program_Studi->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}
+CRITICAL - 2020-11-16 01:38:53 --> syntax error, unexpected end of file
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('program_studi_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Program_Studi.php(8): view('program_studi_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Program_Studi->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program_Studi))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}

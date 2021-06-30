@@ -1,0 +1,33 @@
+CRITICAL - 2020-12-03 23:16:00 --> syntax error, unexpected '}', expecting ';'
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Dashboard')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Dashboard')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-12-03 23:16:33 --> Undefined variable: data
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Views\edit_profil_user_v.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 30, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\View\View.php(246): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Common.php(1119): CodeIgniter\View\View->render('edit_profil_use...', Array, true)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(64): view('edit_profil_use...', Array)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->editProfilUser()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#9 {main}
+CRITICAL - 2020-12-03 23:37:03 --> Too few arguments to function App\Controllers\Dashboard::updateuser(), 0 passed in E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php on line 921 and exactly 1 expected
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->updateuser()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-12-03 23:41:53 --> Too few arguments to function App\Controllers\Dashboard::updateuser(), 0 passed in E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php on line 921 and exactly 1 expected
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->updateuser()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}

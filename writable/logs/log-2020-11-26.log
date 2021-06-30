@@ -1,0 +1,48 @@
+CRITICAL - 2020-11-26 01:43:01 --> syntax error, unexpected 'loginuser' (T_STRING), expecting variable (T_VARIABLE)
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home/loginuser')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Home/loginuser')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-26 01:43:46 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home/loginuser')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Home/loginuser')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-26 01:44:18 --> syntax error, unexpected '}', expecting ';'
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home/loginuser')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('Home/loginuser')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-11-26 01:44:26 --> Undefined variable: title
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Views\template.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 21, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(246): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(257): CodeIgniter\View\View->render('template', Array, true)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('log_in_user_v', Array, true)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\Home.php(10): view('log_in_user_v')
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\Home->loginuser()
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2020-11-26 01:45:31 --> Undefined variable: title
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Views\template.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 21, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(246): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(257): CodeIgniter\View\View->render('template', Array, true)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('log_in_user_v', Array, true)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\Index.php(16): view('log_in_user_v')
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\Index->loginuser()
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}

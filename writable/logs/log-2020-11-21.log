@@ -1,0 +1,106 @@
+CRITICAL - 2020-11-21 21:22:42 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:24:01 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:24:02 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:24:03 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:24:13 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:25:28 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:25:33 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:26:53 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:37 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:38 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:39 --> Call to a member function helper() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:46 --> Call to a member function view() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:50 --> Call to a member function view() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:27:56 --> Call to a member function view() on null
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\FlashCard->kartu()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlashCard))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2020-11-21 21:30:04 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('FlashCard/kartu')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('FlashCard/kartu')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}

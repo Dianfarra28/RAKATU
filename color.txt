@@ -1,0 +1,9 @@
+background 	: #49BBAC
+2nd color text 	: #E5E5E5
+button sunshine	: #F8B732
+strong orange 	: #FF491B
+
+green bg	: #37A777
+yellow boxes	: #FECA1F
+orange input	: #F8931F
+light text	: #FFEF8D

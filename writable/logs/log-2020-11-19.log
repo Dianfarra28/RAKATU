@@ -1,0 +1,68 @@
+CRITICAL - 2020-11-19 01:50:28 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 01:50:50 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 01:51:12 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 01:51:25 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 01:51:28 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 02:04:53 --> Invalid file: {0}
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Common.php(1119): CodeIgniter\View\View->render('index_v.php', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\app\Controllers\Index.php(7): view('index_v.php')
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): App\Controllers\Index->index()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-11-19 04:46:06 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('FlashCard/index')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(796): CodeIgniter\Router\Router->handle('FlashCard/index')
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}

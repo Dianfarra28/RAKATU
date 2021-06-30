@@ -1,0 +1,76 @@
+CRITICAL - 2020-12-07 04:57:05 --> Unable to connect to the database.
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Login.php(25): CodeIgniter\Model->first()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Login->auth()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#9 {main}
+CRITICAL - 2020-12-07 04:58:04 --> Unable to connect to the database.
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Login.php(25): CodeIgniter\Model->first()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Login->auth()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#9 {main}
+CRITICAL - 2020-12-07 21:07:46 --> Undefined variable: username
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 172, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-12-07 21:08:23 --> Undefined variable: session
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 173, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-12-07 21:08:36 --> Undefined variable: nama
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 177, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2020-12-07 21:08:53 --> Invalid file: ujian_v.php
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ujian_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Common.php(1119): CodeIgniter\View\View->render('ujian_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(177): view('ujian_v', Array)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-12-07 21:10:34 --> Invalid file: ujian_v.php
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ujian_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Common.php(1119): CodeIgniter\View\View->render('ujian_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(177): view('ujian_v', Array)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2020-12-07 21:10:55 --> Invalid file: ujan_v.php
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ujan_v.php')
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Common.php(1119): CodeIgniter\View\View->render('ujan_v', Array, true)
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\app\Controllers\Dashboard.php(177): view('ujan_v', Array)
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(921): App\Controllers\Dashboard->ujian()
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\rakatu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}

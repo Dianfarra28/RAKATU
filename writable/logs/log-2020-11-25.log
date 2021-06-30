@@ -1,0 +1,15 @@
+CRITICAL - 2020-11-25 23:58:07 --> Undefined offset: 1
+#0 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\KULIAH\\SEMES...', 91, Array)
+#1 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('dian12345', Object(Myth\Auth\Entities\User))
+#2 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('dian12345', Object(Myth\Auth\Entities\User))
+#3 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('dian12345', Object(Myth\Auth\Entities\User))
+#4 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Validation\Validation.php(325): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('dian12345', NULL)
+#5 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dian12345', Array, Array)
+#6 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#7 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\vendor\myth\auth\src\Controllers\AuthController.php(162): CodeIgniter\Controller->validate(Array)
+#8 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(921): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\KULIAH\SEMESTER 5\RPL\UTS-UAS PROJECT\siratu\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#13 {main}

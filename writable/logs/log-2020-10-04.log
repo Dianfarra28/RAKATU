@@ -1,0 +1,27 @@
+CRITICAL - 2020-10-04 06:02:58 --> syntax error, unexpected '<'
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('beranda_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(11): view('beranda_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}
+CRITICAL - 2020-10-04 06:03:56 --> syntax error, unexpected '<'
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('beranda_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(11): view('beranda_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}
+CRITICAL - 2020-10-04 06:04:44 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 E:\KULIAH\SEMESTER 5\PBW\framework\system\Common.php(1119): CodeIgniter\View\View->render('beranda_v', Array, true)
+#1 E:\KULIAH\SEMESTER 5\PBW\framework\app\Controllers\Beranda.php(11): view('beranda_v')
+#2 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(921): App\Controllers\Beranda->index()
+#3 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#4 E:\KULIAH\SEMESTER 5\PBW\framework\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\KULIAH\SEMESTER 5\PBW\framework\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\KULIAH\SEMESTER 5\PBW\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\KULIAH\\SEMES...')
+#7 {main}
